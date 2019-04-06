@@ -1,0 +1,309 @@
+    @charset "UTF-8";
+
+    /*css 初始化 */
+    html,
+    ul,
+    li,
+    ol,
+    dl,
+    dd,
+    dt,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    form,
+    span,
+    fieldset,
+    legend,
+    img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .clear:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .lf {
+        float: left;
+    }
+
+    .rf {
+        float: right;
+    }
+
+    .nav {
+        width: 3000px;
+        height: 150px;
+        background: #10a8ab;
+        position: absolute;
+        left: 50%;
+        margin-left: -1500px;
+        bottom: 0;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .nav>li {
+        width: 500px;
+        height: 150px;
+        line-height: 150px;
+        float: left;
+    }
+
+    .nav>li span {
+        height: 150px;
+        width: 230px;
+        line-height: 150px;
+        display: block;
+        float: left;
+        color: #eeeeee;
+    }
+
+    .nav>li span:nth-child(1) {
+        line-height: 100px;
+        padding: 40px 40px 0 0;
+        text-align: right;
+    }
+
+    .nav>li span:nth-child(2) {
+        line-height: 150px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .navBg {
+        background: #20d5d8;
+    }
+
+    .navBg1 {
+        color: #fff;
+        background: #219c9e;
+        border-top: 5px solid #0e393a;
+    }
+
+    .navColor {
+        color: #252525 !important;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+
+
+    fieldset,
+    img,
+    input,
+    button {
+        /*fieldset组合表单中的相关元素*/
+        border: none;
+        padding: 0;
+        margin: 0;
+        outline-style: none;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+        /*清除列表风格*/
+    }
+
+    input {
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: "SimSun", "宋体";
+    }
+
+    select,
+    input {
+        vertical-align: middle;
+    }
+
+    select,
+    input,
+    textarea {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    /*防止多行文本框拖动*/
+    img {
+        border: 0;
+        vertical-align: middle;
+    }
+
+    /*  去掉图片低测默认的3像素空白缝隙*/
+    table {
+        border-collapse: collapse;
+        /*合并外边线*/
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 11520px;
+        height: 4320px;
+        font: 36px/150% "microsoft yahei", Arial, Verdana, "\5b8b\4f53";
+        /*宋体，Unicode，统一码*/
+        color: #eaeaea;
+        background-color: #303135;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+        content: "";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
+
+    .clearfix {
+        *zoom: 1;
+        /*IE/7/6*/
+    }
+
+    a {
+        color: #fff;
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #1b6d85;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 100%;
+    }
+
+    s,
+    i,
+    em {
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .col-red {
+        color: #C81623 !important;
+    }
+
+    span {
+        font: 400 40px/50px "microsoft yahei";
+    }
+
+    /*公共类*/
+
+    .w {
+        /*版心 提取 */
+        width: 11360px;
+        height: 4160px;
+        margin: 80px;
+        overflow: hidden;
+    }
+
+    .Left-large-box {
+        width: 3720px;
+        height: 4160px;
+        float: left;
+    }
+
+    .center-large-box {
+        width: 3760px;
+        height: 4160px;
+        float: left;
+        margin-left: 80px;
+    }
+
+    .right-large-box {
+        width: 3720px;
+        height: 4160px;
+        float: right;
+
+    }
+
+    /*左侧中模块*/
+    .public-part {
+        width: 3720px;
+        height: 2040px;
+    }
+
+    .public-top {
+        margin-top: 80px;
+    }
+
+    .public-radius {
+        border-radius: 20px;
+    }
+
+    .public-tr {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .public-br {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .public-big-title {
+        width: 100%;
+        height: 160px;
+        font: bold 80px/160px "SimHei";
+        text-align: center;
+        color: #eeeeee;
+    }
+
+    .public-little-title {
+        width: 100%;
+        height: 40px;
+    }
+
+    .public-small-title {
+        width: 100%;
+        height: 120px;
+        font: 400 56px/120px "microsoft yahei";
+        text-align: center;
+        color: #eeeeee;
+    }
+
+    /************页面中比较常用的背景色1深灰2深蓝3深黑4浅灰***************/
+    .public-color1 {
+        background-color: #45464a;
+    }
+
+    .public-color2 {
+        background-color: #393a4c;
+    }
+
+    .public-color3 {
+        background-color: #232323;
+    }
+
+    .public-color4 {
+        background-color: #666666;
+    }
+
+    /************页面中比较常用的背景色1深灰2深蓝3深黑***************/
+
+
+    .tr {
+        text-align: right;
+    }

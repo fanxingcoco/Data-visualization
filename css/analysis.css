@@ -1,0 +1,568 @@
+.analysis-color {
+	background-color: #383a4c;
+}
+
+.analysis-color1 {
+	background-color: #5a90c1;
+}
+
+.analysis-color2 {
+	background-color: #e57373;
+}
+
+.analysis-color3 {
+	background-color: #a2ba55;
+}
+
+.main {
+	width: 11360px;
+	height: 4160px;
+	margin: 80px;
+	display: flex;
+	color: #dddddd;
+	justify-content: space-between;
+}
+
+.main>div:nth-child(1),
+.main>div:nth-child(3) {
+	width: 3720px;
+	height: 4160px;
+	border-radius: 20px;
+}
+
+.main>div:nth-child(2) {
+	width: 3760px;
+	height: 4160px;
+	border-radius: 20px;
+}
+
+.part1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.part1>div:nth-child(1) {
+	width: 3720px;
+	height: 1520px;
+}
+
+.block1,
+.block7 {
+	width: 3720px;
+	height: 1520px;
+	border-radius: 20px;
+}
+
+#analysis1 {
+	width: 3720px;
+	height: 1360px;
+}
+
+.title1 {
+	background: #515368;
+}
+
+.part1>div:nth-child(2) {
+	width: 1800px;
+	height: 2580px;
+}
+
+.block2,
+.block9 {
+	width: 1800px;
+	height: 1520px;
+	position: relative;
+}
+
+.block2-bar {
+	width: 1800px;
+	height: 160px;
+	position: absolute;
+}
+
+#analysis2 {
+	width: 1800px;
+	height: 1520px;
+	position: absolute;
+}
+
+.block3 {
+	width: 1800px;
+	height: 960px;
+	/*background: #383a4c;*/
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title3 {
+	width: 100px;
+	height: 600px;
+	margin: 200px 50px 0 100px;
+	line-height: 80px;
+	font-size: 60px;
+	color: #eee;
+}
+
+#analysis3 {
+	margin-top: 80px;
+	width: 800px;
+	height: 800px;
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+
+.details {
+	width: 660px;
+	height: 940px;
+}
+
+.details>p {
+	width: 660px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	color: #eee;
+	font-size: 50px;
+}
+
+.colorBar {
+	width: 560px;
+	height: 20px;
+	margin: 0 50px;
+}
+
+.details>.total {
+	width: 560px;
+	height: 160px;
+	margin: 0 50px;
+	background: #497daa;
+}
+
+.total>li {
+	width: 280px;
+	height: 160px;
+	line-height: 160px;
+	text-align: center;
+	color: #eee;
+	font-size: 48px;
+	float: left;
+}
+
+.week {
+	width: 560px;
+	height: 80px;
+	margin: 0 50px;
+	background: #497daa;
+}
+
+.week>li {
+	width: 280px;
+	height: 80px;
+	line-height: 50px;
+	text-align: center;
+	color: #eee;
+	font-size: 40px;
+	float: left;
+}
+
+.part1>div:nth-child(3) {
+	width: 1840px;
+	height: 2560px;
+	background: #383a4c;
+	border-radius: 20px;
+}
+
+.eventRank {
+	width: 1640px;
+	height: 850px;
+	padding: 60px 100px;
+}
+
+.title4 {
+	width: 1640px;
+	height: 120px;
+	text-align: center;
+	color: #303134;
+	font: 600 72px/120px "SimHei";
+	border-bottom: 10px solid #303134;
+}
+
+.introduction {
+	margin-left: -30px;
+}
+
+.introduction_first,
+.introduction_second,
+.introduction_third {
+	width: 550px;
+	height: 670px;
+	float: left;
+}
+
+.introduction_first>.pic,
+.introduction_third>.pic,
+.introduction_second>.text {
+	width: 550px;
+	height: 310px;
+	margin-top: 50px;
+}
+
+.introduction_first>.pic>img,
+.introduction_second>.pic>img,
+.introduction_third>.pic>img {
+	width: 610px;
+	height: 310px;
+}
+
+.introduction_first>.text,
+.introduction_third>.text,
+.introduction_second>.pic {
+	width: 550px;
+	height: 310px;
+}
+
+.event_type {
+	width: 550px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 50px;
+	text-align: center;
+	color: #eee;
+}
+
+.event_percent {
+	width: 550px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 36px;
+	text-align: center;
+	color: #61a0a9;
+}
+
+.event_des {
+	width: 450px;
+	height: 140px;
+	padding: 0 50px;
+	line-height: 70px;
+	font-size: 36px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#analysis4 {
+	width: 1840px;
+	height: 1590px;
+	border-radius: 20px;
+}
+
+.middle {
+	width: 3760px;
+	height: 3120px;
+	margin-bottom: 80px;
+	background: #383a4c;
+	border-radius: 20px;
+}
+
+.title5 {
+	width: 3760px;
+	height: 200px;
+	font: 600 100px/200px "SimHei";
+	text-align: center;
+}
+
+.bottomLeft {
+	width: 900px;
+	height: 960px;
+	float: left;
+	overflow: hidden;
+}
+
+.title6,
+.title8 {
+	width: 900px;
+	height: 60px;
+	margin-top: 40px;
+	line-height: 60px;
+	font-size: 60px;
+	text-align: center;
+	font: 400 60px/60px "SimHei";
+}
+
+.infor1,
+.infor2 {
+	width: 444px;
+	height: 200px;
+	float: left;
+}
+
+.infor1 {
+	background: #5a8fc1;
+}
+
+.infor2 {
+	background: #b9d55e;
+}
+
+.whiteBar {
+	width: 10px;
+	height: 200px;
+	background: #eee;
+	float: left;
+}
+
+.percent {
+	width: 395px;
+	height: 60px;
+	padding: 30px 0 0 0;
+	text-align: center;
+}
+
+.num {
+	width: 500px;
+	height: 80px;
+	font: bold 50px/80px "SimHei";
+	line-height: 80px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+#analysis6 {
+	width: 900px;
+	height: 660px;
+}
+
+#analysis8 {
+	width: 900px;
+	height: 660px;
+}
+
+.bottomMiddle {
+	width: 1800px;
+	height: 960px;
+	margin: 0 80px;
+	float: left;
+}
+
+#analysis7 {
+	width: 1800px;
+	height: 760px;
+}
+
+.title7 {
+	width: 1800px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 72px;
+	text-align: center;
+}
+
+.part2 .bottomRight {
+	width: 900px;
+	height: 960px;
+	float: left;
+	overflow: hidden;
+}
+
+.part3 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#analysis9 {
+	width: 3720px;
+	height: 1360px;
+}
+
+.title9 {
+	background: #55586b;
+}
+
+.block8 {
+	width: 1840px;
+	height: 2560px;
+}
+
+.accidentRank {
+	width: 1640px;
+	height: 850px;
+	padding: 60px 100px;
+}
+
+.title10 {
+	width: 1660px;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	color: #eee;
+	font-size: 70px;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-bottom-color: #656671;
+}
+
+.picture>img {
+	width: 1660px;
+	margin-top: 60px;
+	height: 400px;
+}
+
+.rate {
+	width: 1660px;
+	padding: 0 75px;
+	height: 200px;
+	margin-top: -350px;
+}
+
+.rate>li {
+	width: 370px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	display: inline-block;
+	color: #eee;
+	font-size: 60px;
+}
+
+.intro_part {
+	padding: 30px 60px;
+	margin-top: 160px;
+	font-size: 0;
+}
+
+.intro {
+	width: 380px;
+	height: 200px;
+	display: inline-block;
+}
+
+.subtext {
+	width: 380px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 54px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.con {
+	width: 380px;
+	height: 60px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 36px;
+	overflow: hidden;
+}
+
+#analysis10 {
+	width: 1840px;
+	height: 1600px;
+}
+
+.analysis11 {
+	width: 1800px;
+	height: 1360px;
+	border-radius: 20px;
+}
+
+.describe,
+#analysis11 {
+	width: 900px;
+	height: 1360px;
+	float: left;
+}
+
+#analysis_11 {
+	width: 900px;
+	height: 800px;
+}
+
+.census {
+	width: 900px;
+	height: 540px;
+}
+
+.lineBar {
+	width: 700px;
+	height: 20px;
+	margin: 0 100px;
+	background: #8ea152;
+}
+
+.charge {
+	width: 700px;
+	height: 160px;
+	margin: 0 100px;
+	background: #4e5162;
+}
+
+.charge>li {
+	width: 350px;
+	height: 160px;
+	float: left;
+	line-height: 160px;
+	text-align: center;
+	font-size: 40px;
+	color: #eee;
+}
+
+.key {
+	color: #5184b3;
+	font-size: 55px;
+}
+
+.block10 {
+	width: 1800px;
+	height: 960px;
+	border-radius: 20px;
+	position: relative;
+}
+
+#analysis12 {
+	width: 1800px;
+	height: 960px;
+	position: absolute;
+}
+
+.detail {
+	width: 840px;
+	height: 650px;
+	margin: 260px 0 0 940px;
+	position: absolute;
+}
+
+.car {
+	width: 760px;
+	height: 100px;
+	background: #497daa;
+}
+
+.car>li {
+	width: 360px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 40px;
+	text-align: center;
+	color: #eee;
+	float: left;
+}
+
+.redBar {
+	width: 760px;
+	height: 20px;
+}
+
+.title12 {
+	width: 760px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 60px;
+	color: #eee;
+}

@@ -1,0 +1,770 @@
+    @charset "UTF-8";
+    /***********block1*begin*********/
+
+    .block1 {
+        width: 3720px;
+        height: 2040px;
+    }
+
+    .block1-color {
+        background-color: #2eb79d;
+    }
+
+    .block1-content {
+        width: 3720px;
+        height: 1840px;
+    }
+
+    .block1-content-left {
+        width: 1740px;
+        height: 1660px;
+        float: left;
+        margin: 80px 0 0 60px;
+    }
+
+    .video-frame {
+        width: 100%;
+        height: 770px;
+        padding-top: 50px;
+    }
+
+    .block1-content-left .video {
+        width: 1280px;
+        height: 720px;
+        margin-left: 230px;
+        overflow: hidden;
+        background: url("../images/accident1.jpg");
+    }
+
+    .information {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        padding-top: 20px;
+        font: 400 48px/100px "microsoft yahei";
+        border-bottom: 2px solid #666666;
+    }
+
+    .accident-news {
+        width: 1660px;
+        height: 600px;
+        margin-top: 50px;
+        padding: 0 40px;
+    }
+
+    .accident-news h1 {
+        font: 400 60px/120px "mictosoft yahei";
+    }
+
+    .accident-news p {
+        display: block;
+        height: 400px;
+        overflow: hidden;
+        font: 400 40px/70px "mictosoft yahei";
+        margin: 0;
+    }
+
+    .block1-content-right {
+        width: 1840px;
+        height: 1660px;
+        margin-top: 80px;
+        float: right;
+    }
+
+    .accident-statistics {
+        width: 1600px;
+        height: 420px;
+        margin-left: 110px;
+        border: solid 2px #666666;
+    }
+
+    .accident-statistics-content {
+        width: auto;
+        height: 400px;
+    }
+
+    .accident-statistics-total {
+        width: auto;
+        height: 140px;
+        margin: 0 50px 0 50px;
+        padding-top: 20px;
+        font: 400 50px/140px "microsoft yahei";
+    }
+
+    .accident-statistics-numb {
+        width: auto;
+        height: 120px;
+        margin: 0 50px 0 50px;
+        font: 400 50px/120px "microsoft yahei";
+    }
+
+    .accident-statistics-line {
+        width: auto;
+        height: 20px;
+        background-color: #2eb79c;
+    }
+
+    .accident-table {
+        width: auto;
+        height: 1200px;
+        margin-top: 40px;
+        padding: 0 60px;
+    }
+
+
+    /***********block2*begin*********/
+    .public-part .block2 {
+        width: 1800px;
+        height: 2040px;
+        float: left;
+    }
+
+    .duty-title {
+        width: auto;
+        height: 280px;
+        margin: 50px 80px 0 80px;
+    }
+
+    .duty-title-font {
+        width: 1300px;
+        height: 230px;
+        float: left;
+        margin-top: 50px;
+    }
+
+
+
+    .duty-title-font h1 {
+        font: bold 72px/130px "SimHei";
+    }
+
+    .duty-title-font p {
+        font: 400 48px/100px 'microsoft yahei';
+    }
+
+    .duty-title img {
+        float: right;
+    }
+
+    .duty-title-line {
+        width: auto;
+        height: 30px;
+        margin: 0 80px;
+        background-color: #0c6e4a;
+    }
+
+    .duty-table {
+        width: auto;
+        height: 1450px;
+    }
+
+    .duty-classify {
+        width: auto;
+        height: 150px;
+        margin: 0 60px;
+    }
+
+    .duty-classify button {
+        width: 500px;
+        height: 150px;
+        float: left;
+        margin-left: 45px;
+        font: bold 48px/150px "SimHei";
+        color: #eee;
+        border-radius: 10px;
+        background-color: #00714c;
+    }
+
+    .duty-classify button:hover {
+        background-color: #8ab923;
+    }
+
+    .duty-classify button:focus {
+        background-color: #8ab923;
+    }
+
+
+    /***********block3*begin*********/
+    .public-part .block3 {
+        width: 1840px;
+        height: 2040px;
+        margin-left: 80px;
+        float: left;
+    }
+
+    .staff {
+        width: auto;
+        height: 1000px;
+    }
+
+    .staff-proportion {
+        width: 800px;
+        height: 900px;
+        float: left;
+        margin: 50px 0 0 50px;
+    }
+
+    .staff-title {
+        width: 800px;
+        height: 150px;
+        font: bold 80px/150px "SimHei";
+        color: #d2d2d2;
+        float: left;
+    }
+
+    .staff-proportion-text {
+        width: 400px;
+        height: 750px;
+        float: left;
+    }
+
+    .staff-proportion-women {
+        width: 390px;
+        margin-top: 100px;
+        font: 400 48px/100px "microsoft yahei";
+        text-align: right;
+    }
+
+    .staff-proportion-men {
+        width: 390px;
+        margin-top: 100px;
+        font: 400 48px/100px "microsoft yahei";
+        text-align: right;
+    }
+
+    .staff-proportion img {
+        width: 350px;
+        height: 600px;
+        display: block;
+        padding: 100px 25px;
+        float: left;
+    }
+
+    .staff-analysis {
+        width: 950px;
+        height: 950px;
+        margin-top: 50px;
+        float: right;
+    }
+
+    .brief-introduction {
+        width: auto;
+        height: 430px;
+        margin: 0 50px;
+        display: flex;
+        align-items: center;
+        border-bottom: 20px solid #0c6e4a;
+    }
+
+    .brief-introduction-content {
+        width: 1050px;
+        height: 350px;
+        margin: 0 80px;
+        overflow: hidden;
+    }
+
+    .brief-introduction-content h1 {
+        font: 400 60px/100px "microsoft yahei";
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .brief-introduction-content p {
+        font: 400 40px/70px "microsoft yahei";
+    }
+
+    .brief-introduction img {
+        width: 415px;
+        height: 287px;
+        margin-left: 50px;
+        display: block;
+    }
+
+    .staff-classify {
+        width: auto;
+        height: 500px;
+        margin: 30px 50px 0 50px;
+    }
+
+    .staff-classify h1 {
+        font: 400 48px/100px "microsoft yahei";
+        text-align: center;
+    }
+
+    .staff-classify-box {
+        width: 450px;
+        height: 500px;
+        margin-left: 100px;
+        float: left;
+    }
+
+    .staff-classify-chart1 {
+        height: 400px;
+    }
+
+
+    /***********block4*begin*********/
+    .center-large-box h1 {
+        width: auto;
+        height: 300px;
+        margin: 50px 200px;
+        font: bold 120px/300px "SimHei";
+    }
+
+    .block4 {
+        width: 3760px;
+        height: 3600px;
+        /*position: relative;*/
+        background: url("../images/center1.png") no-repeat 0 center;
+    }
+
+    .block4 h2 {
+        display: block;
+        margin: 80px 80px 30px 80px;
+        color: #eee;
+        font: 400 60px/100px "microsoft yahei";
+    }
+
+    .block4 p {
+        display: block;
+        margin: 30px 80px;
+        color: #eee;
+        font: 400 48px/100px "microsoft yahei";
+    }
+
+    .center-information {
+        position: absolute;
+        width: 2680px;
+        height: 550px;
+        margin: 190px 540px 0 540px;
+    }
+
+    .center-accident {
+        position: absolute;
+        width: 2680px;
+        height: 550px;
+        margin: 870px 540px 0 540px;
+    }
+
+    .center-call {
+        position: absolute;
+        width: 2680px;
+        height: 550px;
+        margin: 1540px 540px 0 540px;
+    }
+
+    .center-staff {
+        position: absolute;
+        width: 2680px;
+        height: 550px;
+        margin: 2210px 540px 0 540px;
+    }
+
+    .center-block {
+        position: absolute;
+        width: 2680px;
+        height: 550px;
+        margin: 2880px 540px 0 540px;
+    }
+
+    .center-little-box {
+        width: 850px;
+        height: 550px;
+        /*background-color: #5cb85c;*/
+    }
+
+
+
+    /***********block5--begin*********/
+    .block5 {
+        width: 1840px;
+        height: 2040px;
+        float: left;
+    }
+
+    .block5-color {
+        background-color: #95c861;
+    }
+
+    .information-release {
+        width: 1840px;
+        height: 1090px;
+        border-bottom: 10px solid #1a1822;
+    }
+
+    .information-title {
+        width: auto;
+        height: 120px;
+        display: flex;
+        padding-bottom: 30px;
+        align-items: flex-end;
+        background-color: #2e3146;
+    }
+
+    .information-title img {
+        margin-left: 50px;
+    }
+
+    .information-title h2 {
+        width: 300px;
+        margin-left: 30px;
+        font: bold 48px/48px "SimHei";
+        color: #95c861;
+    }
+
+    .information-title p {
+        width: 300px;
+        margin-left: 700px;
+        font: 400 36px/36px "microsoft yahei";
+    }
+
+    .information-title s {
+        width: 300px;
+        margin-left: 20px;
+        font: 600 60px/48px "microsoft yahei";
+        color: #95c861;
+    }
+
+    .information-content {
+        margin: 0 auto;
+        width: 1840px;
+        height: 924px;
+        overflow: hidden;
+    }
+
+    .information-content-line {
+        display: flex;
+        justify-content: center;
+    }
+
+    .table-content {
+        height: 130px;
+        padding: 10px 25px;
+        font: 32px/65px "Microsoft yahei";
+        text-align: left;
+        border: 1px solid #494a5a;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+    }
+
+    .tab-icon1 {
+        width: 25px;
+    }
+
+    .tab-title1 {
+        width: 300px;
+    }
+
+    .tab-content1 {
+        width: 1085px;
+    }
+
+    .tab-time1 {
+        width: 200px;
+    }
+
+    .information-statistics {
+        width: auto;
+        height: 740px;
+    }
+
+    .message {
+        width: 260px;
+        height: 650px;
+        margin: 70px 0 0 90px;
+        float: left;
+    }
+
+    .message h2 {
+        width: 260px;
+        height: 100px;
+        display: block;
+        margin: 20px 0;
+        font: 400 60px/100px "microsoft yahei";
+        text-align: center;
+    }
+
+    .message s {
+        font: 600 72px/120px "microsoft yahei";
+        text-align: center;
+        display: block;
+    }
+
+    .message img {
+        width: 200px;
+        height: 200px;
+        margin: 50px 30px;
+    }
+
+
+    /***********block6--begin*********/
+
+    .block6 {
+        width: 1800px;
+        height: 2040px;
+        float: left;
+        margin-left: 80px;
+    }
+
+    .event-title {
+        width: auto;
+        height: 100px;
+        margin: 100px 100px 20px 150px;
+        font: bold 80px/100px "simhei";
+    }
+
+    .event-title-line {
+        width: auto;
+        height: 30px;
+        margin: 0 100px;
+        background-color: #95c861;
+    }
+
+    .event-analysis {
+        width: auto;
+        height: 1210px;
+        margin: 50px 60px 30px 60px;
+    }
+
+    .event-content {
+        width: auto;
+        height: 420px;
+        margin: 0px 100px;
+        border: 1px solid #666666;
+    }
+
+    .event-content-numb {
+        width: auto;
+        height: 250px;
+        display: flex;
+        flex-direction: row
+    }
+
+    .event-content-left {
+        width: 700px;
+        height: 220px;
+        padding: 20px 45px 0 45px;
+        float: left;
+    }
+
+    .event-content-title {
+        width: 350px;
+        height: 100px;
+        float: left;
+        font: 400 48px/100px "microsoft yahei";
+    }
+
+    .event-content-percent {
+        width: 350px;
+        height: 100px;
+        color: #e66e69;
+        font: 600 60px/100px "microsoft yahei";
+        float: left;
+        text-align: right;
+    }
+
+    .event-content-bar {
+        width: 700px;
+        height: 100px;
+        float: left;
+    }
+
+    .event-content-total {
+        width: auto;
+        height: 150px;
+        padding: 0 300px;
+    }
+
+    .event-content-total-title {
+        font: 400 60px/100px "microsoft yahei";
+        float: left;
+    }
+
+    .event-content-total-numb {
+        font: 600 72px/100px "microsoft yahei";
+        float: right;
+        color: #94c860;
+    }
+
+    .event-content-line {
+        width: auto;
+        height: 20px;
+        background-color: #95c861;
+    }
+
+
+    /***********block7--begin*********/
+
+    .block7 {
+        width: 1840px;
+        height: 2040px;
+        float: left;
+        margin-top: 80px;
+    }
+
+    .traffic-block-title {
+        width: auto;
+        height: 150px;
+        padding-top: 50px;
+        font: 400 72px/150px "microsoft yahei";
+        text-align: center;
+    }
+
+    .traffic-block-analysis {
+        width: auto;
+        height: 1100px;
+        margin: 0 60px;
+    }
+
+    .traffic-block-content {
+        width: 1600px;
+        height: 620px;
+        margin: 20px auto;
+        border: 1px solid #666666;
+    }
+
+    .traffic-block-content-block {
+        width: auto;
+        height: 600px;
+    }
+
+    .traffic-block-numb {
+        width: 40%;
+        height: 600px;
+        float: left;
+    }
+
+    .traffic-block-numb p {
+        margin: 50px 50px 10px 0;
+        display: block;
+        text-align: right;
+        font: 400 56px/100px "microsoft yahei";
+    }
+
+    .traffic-block-numb s {
+        margin-right: 50px;
+        display: block;
+        text-align: right;
+        font: 600 70px/100px "microsoft yahei";
+        color: #5cb85c;
+    }
+
+    .traffic-block-statistics {
+        width: 60%;
+        height: 600px;
+        float: right;
+    }
+
+    .traffic-block-line {
+        width: 1600px;
+        height: 20px;
+        margin: 0 auto;
+        background-color: #8ab923;
+    }
+
+
+
+    /***********block8--begin*********/
+
+    .block8 {
+        width: 1800px;
+        height: 2040px;
+        float: left;
+        margin: 80px 0 0 80px;
+    }
+
+    .block8-color {
+        background-color: #8ab923;
+    }
+
+    .call-ranking {
+        width: 1600px;
+        margin: 50px auto;
+        height: 1000px;
+        position: relative;
+        background: url("../images/call1.png") no-repeat 0 0;
+    }
+
+    .call-ranking-box1 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 30px;
+        top: 280px;
+        font: 600 72px/100px "SimHei";
+        text-align: right;
+    }
+
+    .call-ranking-box2 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 1280px;
+        top: 280px;
+        font: 600 72px/100px "SimHei";
+    }
+
+    .call-ranking-box3 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 30px;
+        top: 850px;
+        font: 600 72px/100px "SimHei";
+        text-align: right;
+    }
+
+    .call-ranking-box4 {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 1280px;
+        top: 850px;
+        font: 600 72px/100px "SimHei";
+    }
+
+    .call-ranking-analysis {
+        width: 500px;
+        height: 500px;
+        margin: 280px 550px;
+        position: absolute;
+    }
+
+    .call-content {
+        width: auto;
+        height: 740px;
+        margin: 0 150px;
+    }
+
+    .call-content-left {
+        width: 50%;
+        height: 700px;
+        float: left;
+    }
+
+    .call-analysis {
+        width: 750px;
+        height: 350px;
+    }
+
+    .call-total {
+        font: 400 60px/100px "microsoft yahei";
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .call-numb {
+        font: 600 72px/150px "microsoft yahei";
+        color: #8ab923;
+        text-align: center;
+    }
+
+    .call-content-right {
+        width: 50%;
+        height: 700px;
+        float: right;
+    }

@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>统计分析</title>
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/analysis.css">
+	<link type="text/css" rel="stylesheet" href="assets/js/road/style.css">
+</head>
+
+<body style="transform:scale(0.11);transform-origin: 0px 0px 0px;">
+	<div class="main">
+		<div class="part1">
+			<div class="block1 analysis-color">
+				<div id="analysis1"></div>
+				<p class="public-big-title public-br title1">24小时流量统计</p>
+			</div>
+			<div class="public-top">
+				<div class="block2 public-radius analysis-color">
+					<div class="block2-bar public-tr analysis-color3"></div>
+					<div id="analysis2"></div>
+				</div>
+				<div class="block3 public-top public-radius analysis-color1">
+					<div class="title3">本<br />周<br />流<br />量<br />统<br />计</div>
+					<div id="analysis3"></div>
+					<div class="details">
+						<p>每天流量统计</p>
+						<div class="colorBar analysis-color2"></div>
+
+						<ul class="total">
+							<li>总流量</li>
+							<li>122299</li>
+						</ul>
+						<ul class="week">
+							<li>周一</li>
+							<li>1223</li>
+						</ul>
+						<ul class="week">
+							<li>周二</li>
+							<li>1323</li>
+						</ul>
+						<ul class="week">
+							<li>周三</li>
+							<li>1423</li>
+						</ul>
+						<ul class="week">
+							<li>周四</li>
+							<li>923</li>
+						</ul>
+						<ul class="week">
+							<li>周五</li>
+							<li>1223</li>
+						</ul>
+						<ul class="week">
+							<li>周六</li>
+							<li>823</li>
+						</ul>
+						<ul class="week">
+							<li>周日</li>
+							<li>1003</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="public-top">
+				<div class="eventRank public-tr analysis-color2">
+					<p class="title4">事件统计分析</p>
+					<div class="introduction">
+						<ul class="introduction_first">
+							<li class="pic"><img src="assets/img/first.png"></li>
+							<li class="text">
+								<h3 class="event_type">普通事件</h3>
+								<p class="event_percent">占比60%</p>
+								<p class="event_des">2018年共发生1239普通事件，普通事件为750件</p>
+							</li>
+						</ul>
+						<ul class="introduction_second">
+							<li class="text">
+								<h3 class="event_type">一般事件</h3>
+								<p class="event_percent">占比15%</p>
+								<p class="event_des">2018年共发生1239普通事件，普通事件为189件</p>
+							</li>
+							<li class="pic"><img src="assets/img/second.png"></li>
+						</ul>
+						<ul class="introduction_third">
+							<li class="pic"><img src="assets/img/third.png"></li>
+							<li class="text">
+								<h3 class="event_type">特殊事件</h3>
+								<p class="event_percent">占比25%</p>
+								<p class="event_des">2018年共发生1239普通事件，普通事件为357件</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="analysis4"></div>
+			</div>
+		</div>
+		<div class="part2">
+			<div class="middle">
+				<p class="title5 public-tr analysis-color1">今日进出流量分析</p>
+				<div id="analysis5">
+					<div id="bpg" style="min-width: 2000px;">
+						<div id="mainDiv">
+							<!-- <div id="imgDiv" style="width: 300px; margin: 10px auto 0px; left: 225px;">
+								<img id="playPause" src="./US Trade Deficit Data Visualization D3.js_files/pause_bw.png" width="24" height="24" style="float:left">
+								<div style="float:left; margin-top:4px; margin-left:4px">click on a timeline year to skip to that point.</div>
+							</div> -->
+							<div id="svgDiv" style="font-size: 0px; width: 1000px; height:1000px;">
+							</div>
+						</div>
+						<div id="toolTip" class="tooltip"
+							style="opacity:0; width:1000px; height:200px; position:absolute;">
+							<div id="header1" class="header3"></div>
+							<div class="header-rule"></div>
+							<div id="head" class="header"></div>
+							<div class="header-rule"></div>
+							<div id="header2" class="header2"></div>
+							<div class="tooltipTail"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="bottomLeft analysis-color public-radius">
+					<div class="title6">本周数据类型占比</div>
+					<div id="analysis6"></div>
+					<div class="infor1">
+						<p class="percent">数据1：45%</p>
+						<p class="num">88999辆</p>
+					</div>
+					<div class="whiteBar"></div>
+					<div class="infor2">
+						<p class="percent">数据2：55%</p>
+						<p class="num">78893辆</p>
+					</div>
+				</div>
+				<div class="bottomMiddle analysis-color public-radius">
+					<div id="analysis7"></div>
+					<p class="title7 analysis-color1 public-br">上周不同数据类型流量</p>
+				</div>
+				<div class="bottomRight analysis-color public-radius">
+					<div class="title8">本周数据类型占比</div>
+					<div id="analysis8"></div>
+					<div class="infor1">
+						<p class="percent">数据3：45%</p>
+						<p class="num">88999</p>
+					</div>
+					<div class="whiteBar"></div>
+					<div class="infor2">
+						<p class="percent">数据4：55%</p>
+						<p class="num">78893元</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="part3">
+			<div class="block7 analysis-color">
+				<div id="analysis9"></div>
+				<div class="public-big-title public-br title9">每天的数据流量和收费统计</div>
+			</div>
+			<div class="block8 public-radius analysis-color public-top">
+				<div class="accidentRank public-tr analysis-color2">
+					<p class="title4">数据统计分析</p>
+					<div class="picture"><img src="assets/img/accident.png"></div>
+					<ul class="rate">
+						<li>45%</li>
+						<li>25%</li>
+						<li>18%</li>
+						<li>12%</li>
+					</ul>
+					<div class="intro_part">
+						<div class="intro">
+							<p class="subtext">数据1</p>
+							<p class="con">5起数据事故</p>
+							<p class="con">时间描述</p>
+						</div>
+						<div class="intro">
+							<p class="subtext">数据2</p>
+							<p class="con">3起数据事故</p>
+							<p class="con">时间描述</p>
+						</div>
+						<div class="intro">
+							<p class="subtext">数据3</p>
+							<p class="con">2起数据事故</p>
+							<p class="con">时间描述</p>
+						</div>
+						<div class="intro">
+							<p class="subtext">数据4</p>
+							<p class="con">1起数据事故</p>
+							<p class="con">时间描述</p>
+						</div>
+					</div>
+				</div>
+				<div id="analysis10"></div>
+			</div>
+			<div class="public-top">
+				<div class="block9 analysis-color">
+					<div class="public-big-title analysis-color3 public-tr">收费统计分析</div>
+					<div class="analysis11">
+						<div class="describe">
+							<div id="analysis_11"></div>
+							<div class="census">
+								<div class="lineBar"></div>
+								<ul class="charge">
+									<li>全年</li>
+									<li><span class="key">8993988元</span></li>
+								</ul>
+								<ul class="charge">
+									<li>本周</li>
+									<li>83988元</li>
+								</ul>
+								<ul class="charge">
+									<li>今日</li>
+									<li>39880元</li>
+								</ul>
+							</div>
+						</div>
+						<div id="analysis11"></div>
+					</div>
+				</div>
+				<div class="block10 public-radius analysis-color1 public-top">
+					<div id="analysis12"></div>
+					<div class="detail">
+						<ul class="car">
+							<li>北京</li>
+							<li>86669</li>
+						</ul>
+						<ul class="car">
+							<li>天津</li>
+							<li>9669</li>
+						</ul>
+						<ul class="car">
+							<li>上海</li>
+							<li>86669</li>
+						</ul>
+						<ul class="car">
+							<li>广州</li>
+							<li>126669</li>
+						</ul>
+						<div class="redBar analysis-color2"></div>
+						<p class="title12">数据来源统计</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="nav">
+			<li>
+				<a href="index.html">
+					<span><i class="fa fa-tripadvisor fa-2x"></i></span>
+					<span>统计</span>
+				</a>
+			</li>
+			<li class="navBg1">
+				<a href="analysis.html">
+					<span><i class="fa fa-forumbee fa-2x"></i></span>
+					<span>分析</span>
+				</a>
+			</li>
+			<li>
+				<a href="maintanance.html">
+					<span><i class="fa fa-envira fa-2x"></i></span>
+					<span>养护</span>
+				</a>
+			</li>
+			<li>
+				<a href="operation.html">
+					<span><i class="fa fa-yelp fa-2x"></i></span>
+					<span>运营</span>
+				</a>
+			</li>
+			<li>
+				<a href="charge.html">
+					<span><i class="fa fa-wpforms fa-2x"></i></span>
+					<span>收费</span>
+				</a>
+			</li>
+			<li>
+				<a href="assets.html">
+					<span><i class="fa fa-ioxhost fa-2x"></i></span>
+					<span>资产</span>
+				</a>
+			</li>
+
+		</ul>
+	</div>
+	<script src="node_modules/mockjs/dist/mock.js"></script>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/echarts.js"></script>
+	<script src="assets/js/common.js"></script>
+	<script src="js/analysis.js"></script>
+	<!-- road里面的js -->
+	<script type="text/javascript" src="assets/js/road/d3.min.js"></script>
+	<script type="text/javascript" src="assets/js/road/trigonometry.js"></script>
+	<script type="text/javascript" src="assets/js/road/arc.js"></script>
+	<script type="text/javascript" src="assets/js/road/functor.js"></script>
+	<script type="text/javascript" src="assets/js/road/source.js"></script>
+	<script type="text/javascript" src="assets/js/road/target.js"></script>
+	<script type="text/javascript" src="assets/js/road/arc-chord.js"></script>
+	<script type="text/javascript" src="assets/js/road/arc-chord(1).js"></script>
+	<script type="text/javascript" src="assets/js/road/gradients.js"></script>
+	<script type="text/javascript" src="assets/js/road/globals.js"></script>
+	<script type="text/javascript" src="assets/js/road/initialize.js"></script>
+	<script type="text/javascript" src="assets/js/road/events.js"></script>
+	<script type="text/javascript" src="assets/js/road/data.js"></script>
+	<script type="text/javascript" src="assets/js/road/_buildChords.js"></script>
+	<script type="text/javascript" src="assets/js/road/update.js"></script>
+
+	<script src="js/analysis.js"></script>
+	<script type="text/javascript">
+		initialize();
+		fetchData();
+
+		function run() {
+			if (month < 11) month++;
+			else {
+				month = 0;
+				if (year < countriesGrouped.length - 1) year++;
+			}
+			if (month == maxMonth && year == maxYear) {
+				month = 0;
+				year = 0;
+			} else {
+				update(year, month);
+			}
+		}
+	</script>
+</body>
+
+</html>

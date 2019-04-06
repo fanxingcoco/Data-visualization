@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>运营页面</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/operation.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+</head>
+
+<body style="transform:scale(0.11);transform-origin: 0px 0px 0px;">
+    <div class="main">
+        <div class="w">
+            <!-- left-large-box-begin -->
+            <div class="Left-large-box">
+                <div class="public-part">
+                    <div class="block1">
+                        <div class="public-big-title public-tr block1-color">当前问题事件分析</div>
+                        <div class="block1-content public-color1">
+                            <div class="block1-content-left">
+                                <div class="video-frame public-color3">
+                                    <video class="video public-radius" controls>
+                                        <source src=" " type="video/mp4">
+                                        </source>
+                                        your browser does not support the video tag
+                                    </video>
+                                </div>
+                                <div class="information">
+                                    事件类型：事件位置事件位置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;事件类型：事件类型事件类型<br>
+                                    处理情况：处理情况处理情况&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人员事件亡：1人重事件，两人轻事件</div>
+                                <div class="accident-news">
+                                    <h1>事件报道</h1>
+                                    <p>指报纸、电台、电视台、互联网等媒体经常使用的记录与传播信息的 [2]
+                                        一种文体。是记录社会、传播信息、反映时代的一种文体。新闻概念有广义与狭义之分。广义上：除了发表于报刊、广播、互联网、电视上的评论与专文外的常用文本都属于新闻，包括消息、通讯、特写、速写（有的将速写纳入特写之列）等等；
+                                        [3]
+                                        狭义上：消息是用概括的叙述方式，以较简明扼要的文字，迅速及时地报道附近新近发生的、有价值的事实，使一定人群了解。新闻一般包括标题、导语、主体、背景和结语五部分。前三者是主要部分，后二者是辅助部分。写法以叙述为主兼或有议论、描写、评论等。新闻是包含海量资讯的新闻服务平台,真实反映每时每刻的重要事件。您可以搜索新闻事件、热点话题、人物动态、产品资讯等,快速了解它们的最新进展。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="block1-content-right">
+                                <div class="accident-statistics public-color2">
+                                    <div class="accident-statistics-content">
+                                        <div class="accident-statistics-total">2018年共发生业务事件：<span
+                                                style="color: #94c860; font-size: 72px; font-weight: 600;">35467</span>件
+                                        </div>
+                                        <div class="accident-statistics-numb">重大业务事件：<span
+                                                style="color: #df5e83; font-size: 72px; font-weight: 600;">648</span>件
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            普通业务事件：<span
+                                                style="color: #f4c740; font-size: 72px; font-weight: 600;">97540</span>/件
+                                        </div>
+                                        <div class="accident-statistics-numb">参与人数：<span
+                                                style="color: #56e8de; font-size: 72px; font-weight: 600;">17</span>/人
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; &nbsp;
+                                            事件人数：<span
+                                                style="color: #df5e83; font-size: 72px; font-weight: 600;">56479</span>/人
+                                        </div>
+                                    </div>
+                                    <div class="accident-statistics-line"></div>
+                                </div>
+                                <div class="accident-table" id="accident-echarts">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="public-little-title public-br block1-color"></div>
+                    </div>
+                </div>
+                <div class="public-part public-top">
+                    <div class="block2 public-radius public-color2">
+                        <div class="duty-title">
+                            <div class="duty-title-font">
+                                <h1>公司业务本月值班安排</h1>
+                                <p>2018.09发布</p>
+                            </div>
+                            <img src="images/operation1.png" alt="">
+                        </div>
+                        <div class="duty-title-line"></div>
+                        <div class="duty-table" id="duty-echarts"></div>
+                        <div class="duty-classify">
+                            <button>类型1</button>
+                            <button>类型2</button>
+                            <button>类型3</button>
+                        </div>
+                    </div>
+                    <div class="block3 public-color2 public-radius">
+                        <div class="staff">
+                            <div class="staff-proportion">
+                                <div class="staff-title">员工情况</div>
+                                <div class="staff-proportion-text">
+                                    <div class="staff-proportion-women">
+                                        <p>女性员工：</p>
+                                        <p style="color: #e66e69; font-size: 60px; font-weight: 600;">35479806
+                                            <span>/人</span></p>
+                                    </div>
+                                    <div class="staff-proportion-men">
+                                        <p>男性员工：</p>
+                                        <p style="color: #94bd6a; font-size: 60px; font-weight: 600;">
+                                            35479806<span>/人</span></p>
+                                    </div>
+                                </div>
+                                <img src="images/staff1.png" alt="staff">
+                            </div>
+                            <div class="staff-analysis" id="staff-echarts"></div>
+                        </div>
+                        <div class="brief-introduction public-color1">
+                            <div class="brief-introduction-content">
+                                <h1>公司人员简介</h1>
+                                <p>个人简介为某人的简要介绍。个人简介可以是表格的形式，也可以是其他形式。一般用于初次见面时个人介绍中或者个人履历表中等。</p>
+                            </div>
+                            <img src="images/staff2.png" alt="staff">
+                        </div>
+                        <div class="staff-classify">
+                            <div class="staff-classify-box">
+                                <div class="staff-classify-chart1" id="staff-echarts1"></div>
+                                <h1>部门1员工</h1>
+                            </div>
+                            <div class="staff-classify-box">
+                                <div class="staff-classify-chart1" id="staff-echarts2"></div>
+                                <h1>部门2员工</h1>
+                            </div>
+                            <div class="staff-classify-box">
+                                <div class="staff-classify-chart1" id="staff-echarts3"></div>
+                                <h1>部门3员工</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- left-large-box-end  -->
+
+
+            <!-- center-large-box-begin -->
+            <div class="center-large-box public-radius public-color2">
+                <h1>运营管理</h1>
+                <div class="block4">
+                    <div class="center-information">
+                        <div class="center-little-box lf" id="center-information-echarts"></div>
+                        <div class="center-little-box rf">
+                            <h2>信息、事件</h2>
+                            <p>左侧为一周内，每天发布的总信息数量</p>
+                        </div>
+                    </div>
+                    <div class="center-accident">
+                        <div class="center-little-box lf tr">
+                            <h2>事件</h2>
+                            <p>右侧为一月内，不同事件类型信息，占总事件的比率</p>
+                        </div>
+                        <div class="center-little-box rf" id="center-accident-echarts"></div>
+                    </div>
+                    <div class="center-call">
+                        <div class="center-little-box lf" id="center-call-echarts"></div>
+                        <div class="center-little-box rf">
+                            <h2>话务统计</h2>
+                            <p>左侧为一年内，每月的话务数量统计</p>
+                        </div>
+                    </div>
+                    <div class="center-staff">
+                        <div class="center-little-box lf tr">
+                            <h2>员工、值班</h2>
+                            <p>右侧为员工总量，不同岗位员工得具体数量</p>
+                        </div>
+                        <div class="center-little-box rf" id="center-staff-echarts"></div>
+                    </div>
+                    <div class="center-block">
+                        <div class="center-little-box lf" id="center-block-echarts"></div>
+                        <div class="center-little-box rf">
+                            <h2>业务阻断</h2>
+                            <p>左侧为半年内，不同类型的阻断所占时长</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- center-large-box-end -->
+
+            <!-- right-large-box-begin -->
+            <div class="right-large-box">
+                <div class="block5 public-color1 public-radius">
+                    <div class="public-big-title public-tr block5-color">今日信息发布</div>
+                    <div class="information-release public-color2">
+                        <div class="information-title">
+                            <img src="images/information1.png" alt="">
+                            <h2>信息发布</h2>
+                            <p>发布信息总数：</p>
+                            <s>35466<span>/条</span></s>
+                        </div>
+                        <div class="information-content">
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #62d1c9">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #1abc9c">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #1abc9c">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #df5e83">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #e0bf5e">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                            <div class="information-content-line">
+                                <div class="table-content tab-icon1" style="background-color: #935ece">☆</div>
+                                <div class="table-content tab-title1">消息通常被人们称为新闻</div>
+                                <div class="table-content tab-content1">
+                                    “新闻”一词有广义和狭义之分。广义的新闻是指各种新闻体裁的总称，包括消息、通讯、特写、调查报告等，狭义的“新闻”指的是消息。我们这里所讲的消息，指的就是狭义新闻。
+                                </div>
+                                <div class="table-content tab-time1">05-22,9:00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information-statistics">
+                        <div class="message">
+                            <h2>短信</h2>
+                            <img src="images/information2.png" alt="">
+                            <s style="color: #56e8de">435</s>
+                        </div>
+                        <div class="message">
+                            <h2>公众号</h2>
+                            <img src="images/information3.png" alt="">
+                            <s style="color: #1abc9c">435</s>
+                        </div>
+                        <div class="message">
+                            <h2>公众栏</h2>
+                            <img src="images/information4.png" alt="">
+                            <s style="color: #df5e83">435</s>
+                        </div>
+                        <div class="message">
+                            <h2>语音</h2>
+                            <img src="images/information5.png" alt="">
+                            <s style="color: #f4c740">435</s>
+                        </div>
+                        <div class="message">
+                            <h2>情报板</h2>
+                            <img src="images/information6.png" alt="">
+                            <s style="color: #935ece">435</s>
+                        </div>
+                    </div>
+                    <div class="public-little-title public-br block5-color"></div>
+                </div>
+                <div class="block6 public-color1 public-radius">
+                    <div class="event-title">事件分类</div>
+                    <div class="event-title-line"></div>
+                    <div class="event-analysis" id="event-echarts"></div>
+                    <div class="event-content public-color2">
+                        <div class="event-content-numb">
+                            <div class="event-content-left">
+                                <div class="event-content-title">普通事件</div>
+                                <div class="event-content-percent">34%</div>
+                                <div class="event-content-bar" id="event-bar-echarts1"></div>
+                            </div>
+                            <div class="event-content-left">
+                                <div class="event-content-title">普通事件</div>
+                                <div class="event-content-percent">34%</div>
+                                <div class="event-content-bar" id="event-bar-echarts2"></div>
+                            </div>
+                        </div>
+                        <div class="event-content-total">
+                            <div class="event-content-total-title">2018年事件总数：</div>
+                            <div class="event-content-total-numb">3678858<span>/件</span></div>
+                        </div>
+                        <div class="event-content-line"></div>
+                    </div>
+                </div>
+                <div class="block7 public-color1 public-radius">
+                    <div class="traffic-block-title">业务阻断时长</div>
+                    <div class="traffic-block-analysis" id="traffic-block-echarts"></div>
+                    <div class="traffic-block-content public-color2">
+                        <div class="traffic-block-content-block">
+                            <div class="traffic-block-numb">
+                                <p>2018年阻断总次数：</p>
+                                <s>35436<span>/次</span></s>
+                                <p>2018年阻断总时长：</p>
+                                <s>35436<span>/分钟</span></s>
+                            </div>
+                            <div class="traffic-block-statistics" id="traffic-block-echarts1"></div>
+                        </div>
+                        <div class="traffic-block-line">
+                        </div>
+                    </div>
+                </div>
+                <div class="block8 public-color2 public-radius">
+                    <div class="public-big-title public-tr block8-color">话务统计</div>
+                    <div class="call-ranking">
+                        <div class="call-ranking-box1">社会</div>
+                        <div class="call-ranking-box2">服务区</div>
+                        <div class="call-ranking-box3">旅游点</div>
+                        <div class="call-ranking-box4">交警</div>
+                        <div class="call-ranking-analysis" id="call-ranking-echarts"></div>
+                    </div>
+                    <div class="call-content">
+                        <div class="call-content-left">
+                            <div class="call-analysis" id="call-analysis-echarts1"></div>
+                            <div class="call-total">总话务量</div>
+                            <div class="call-numb">3565476<span>/次</span></div>
+                        </div>
+                        <div class="call-content-right">
+                            <div class="call-analysis" id="call-analysis-echarts2"></div>
+                            <div class="call-total">总通话时长</div>
+                            <div class="call-numb">3565476<span>/次</span></div>
+                        </div>
+                    </div>
+                    <div class="public-little-title public-br block8-color"></div>
+                </div>
+            </div>
+
+            <!-- right-large-box-end -->
+
+            <ul class="nav">
+                <li>
+                    <a href="index.html">
+                        <span><i class="fa fa-tripadvisor fa-2x"></i></span>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="analysis.html">
+                        <span><i class="fa fa-forumbee fa-2x"></i></span>
+                        <span>分析</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="maintanance.html">
+                        <span><i class="fa fa-envira fa-2x"></i></span>
+                        <span>养护</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="operation.html">
+                        <span><i class="fa fa-yelp fa-2x"></i></span>
+                        <span>运营</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="charge.html">
+                        <span><i class="fa fa-wpforms fa-2x"></i></span>
+                        <span>收费</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets.html">
+                        <span><i class="fa fa-ioxhost fa-2x"></i></span>
+                        <span>资产</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <script src="node_modules/mockjs/dist/mock.js"></script>
+            <script src="assets/js/jquery-3.2.1.min.js"></script>
+            <script src="assets/js/echarts.js"></script>
+            <script src="assets/js/common.js"></script>
+            <script src="js/operation.js"></script>
+</body>
+
+</html>
